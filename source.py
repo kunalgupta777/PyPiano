@@ -60,93 +60,93 @@ while True:
             pg.quit()
         if event.type==pg.KEYDOWN:
             if event.key==pg.K_0:
-                sound = pg.mixer.Sound("sounds\\0.wav")
+                sound = pg.mixer.Sound("0.wav")
                 sound.play()
                 playok = True
                 pid = '0'
             elif event.key==pg.K_1:
-                sound = pg.mixer.Sound("sounds\\1.wav")
+                sound = pg.mixer.Sound("1.wav")
                 sound.play()
                 playok = True
                 pid = '1'
                 
             elif event.key==pg.K_2:
-                sound = pg.mixer.Sound("sounds\\2.wav")
+                sound = pg.mixer.Sound("2.wav")
                 sound.play()
                 playok = True
                 pid = '2'
             elif event.key==pg.K_3:
-                sound = pg.mixer.Sound("sounds\\3.wav")
+                sound = pg.mixer.Sound("3.wav")
                 sound.play()
                 playok = True
                 pid = '3'
             elif event.key==pg.K_4:
-                sound = pg.mixer.Sound("sounds\\4.wav")
+                sound = pg.mixer.Sound("4.wav")
                 sound.play()
                 playok = True
                 pid = '4'
             elif event.key==pg.K_5:
-                sound = pg.mixer.Sound("sounds\\5.wav")
+                sound = pg.mixer.Sound("5.wav")
                 sound.play()
                 playok = True
                 pid = '5'
             elif event.key==pg.K_6:
-                sound = pg.mixer.Sound("sounds\\6.wav")
+                sound = pg.mixer.Sound("6.wav")
                 sound.play()
                 playok = True
                 pid = '6'
             elif event.key==pg.K_7:
-                sound = pg.mixer.Sound("sounds\\7.wav")
+                sound = pg.mixer.Sound("7.wav")
                 sound.play()
                 playok = True
                 pid = '7'
             elif event.key==pg.K_8:
-                sound = pg.mixer.Sound("sounds\\8.wav")
+                sound = pg.mixer.Sound("8.wav")
                 sound.play()
                 playok = True
                 pid = '8'
             elif event.key==pg.K_9:
-                sound = pg.mixer.Sound("sounds\\9.wav")
+                sound = pg.mixer.Sound("9.wav")
                 sound.play()
                 playok = True
                 pid = '9'
             elif event.key==pg.K_q:
-                sound = pg.mixer.Sound("sounds\\b1.wav")
+                sound = pg.mixer.Sound("b1.wav")
                 sound.play()
                 playok = True
                 pid = 'q'
             elif event.key==pg.K_w:
-                sound = pg.mixer.Sound("sounds\\b2.wav")
+                sound = pg.mixer.Sound("b2.wav")
                 sound.play()
                 playok = True
                 pid = 'w'
             elif event.key==pg.K_e:
-                sound = pg.mixer.Sound("sounds\\b3.wav")
+                sound = pg.mixer.Sound("b3.wav")
                 sound.play()
                 playok = True
                 pid = 'e'
             elif event.key==pg.K_r:
-                sound = pg.mixer.Sound("sounds\\b4.wav")
+                sound = pg.mixer.Sound("b4.wav")
                 sound.play()
                 playok = True
                 pid = 'r'
             elif event.key==pg.K_t:
-                sound = pg.mixer.Sound("sounds\\b5.wav")
+                sound = pg.mixer.Sound("b5.wav")
                 sound.play()
                 playok = True
                 pid = 't'
             elif event.key==pg.K_y:
-                sound = pg.mixer.Sound("sounds\\b6.wav")
+                sound = pg.mixer.Sound("b6.wav")
                 sound.play()
                 playok = True
                 pid = 'y'
             elif event.key==pg.K_u:
-                sound = pg.mixer.Sound("sounds\\b7.wav")
+                sound = pg.mixer.Sound("b7.wav")
                 sound.play()
                 playok = True
                 pid = 'u'
             elif event.key==pg.K_i:
-                sound = pg.mixer.Sound("sounds\\b8.wav")
+                sound = pg.mixer.Sound("b8.wav")
                 sound.play()
                 playok = True
                 pid = 'i'
